@@ -1,0 +1,66 @@
+.img-frente {
+  margin-top: 60px;
+  display: block;
+  width: 100%;
+}
+
+.divisao {
+  margin-top: 60px;
+}
+
+.historia {
+  float: left;
+  padding-right: 70px;
+  text-align: justify;
+}
+
+.missao {
+  float: right;
+  text-align: justify;
+  padding-left: 70px;
+}
+
+.historia h3,
+.missao h3 {
+  margin-bottom: 30px;
+  color: #cc9f87;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.historia p,
+.missao p {
+  font-size: 18px;
+  line-height: 25px;
+  text-align: justify;
+}
+
+.fotos {
+  padding-top: 60px;
+}
+
+.img {
+  margin-top: 60px;
+}
+
+@media only screen and (max-width: 787px) {
+  .historia h3,
+  .missao h3 {
+    margin-top: 15px;
+  }
+  .historia p,
+  .historia p {
+    margin-top: 15px;
+    text-align: left;
+  }
+  .historia,
+  .missao {
+    padding: 0px;
+  }
+  .missao {
+    margin-top: 30px;
+  }
+  .img {
+    margin-top: 30px;
+  }
+}
